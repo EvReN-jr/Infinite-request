@@ -1,0 +1,10 @@
+import os
+def num():
+  while True:
+    try:
+      n=int(input("Enter The Number: "))
+      break
+    except:
+      os.system('cls' if os.name=='nt' else 'clear')
+  return n
+num()
